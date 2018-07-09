@@ -1,0 +1,94 @@
+.blog_block
+	display: flex
+	width: 100%
+	background: #ffffff
+	padding: 0px 100px 50px 100px
+.news,
+.our_blog,
+.student_video
+	background: #fff
+.news
+	border-right: 1px solid #f4f1f1
+.caption_blog
+	margin: 0
+	padding: 20px 0px
+	border-bottom: 1px solid #f4f1f1
+	font-size: 1.2em
+	color: #63727A
+.first_blog,
+.second_blog,
+.first_news,
+.second_news
+	padding: 20px 35px 0px 0px
+	line-height: 1.8em
+.first_blog,
+.second_blog,
+	padding-left: 30px
+.first_blog,
+.first_news
+	margin-bottom: 50px
+.capt_blog
+	padding-left: 30px
+.orange_text,
+.blue_text,
+.gray_text
+	display: block
+	font-size: 1.0em
+.orange_text
+	color: $accent-color1
+.blue_text
+	color: #324A6D
+.gray_text
+	font-style: italic
+	color: #B3B8BF
+.slider
+	display: block
+	width: 400px
+.swiper-container
+	margin: 20px
+.not_swip_img
+	display: none
+@media screen and(max-width: 1100px)
+	.blog_block
+		flex-wrap: wrap
+		justify-content: center
+	.caption_blog
+		text-align: center
+	.news,
+	.our_blog
+		width: 50%
+	.student_video
+		display: block
+@media screen and(max-width: 700px)
+	.student_video
+		text-align: center
+	.slider
+		display: inline-block
+	.blog_block
+		display: block
+		padding: 0px 30px 20px 30px
+	.first_blog,
+	.second_blog,
+	.first_news,
+	.second_news
+		padding: 0
+	.news,
+	.our_blog,
+	.student_video
+		display: block
+		width: 100%
+		border:  0px
+		text-align: center
+	.first_blog,
+	.second_blog
+		padding-left: 0
+@media screen and(max-width: 600px)
+	.slider
+		display: none
+	.not_swip_img
+		display: inline-block
+		width: 300px
+		margin-top: 20px
+@media screen and(max-width: 400px)
+	.not_swip_img
+		width: 250px

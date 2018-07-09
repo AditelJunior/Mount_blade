@@ -1,0 +1,101 @@
+.navigation
+	background: $accent-color1
+	height: 550px
+.navigate_list
+	line-height: 55px
+	background: $accent-color1
+	margin: 0
+	position: relative
+.navigate_item
+	display: inline-block
+	margin-right: 50px
+.home
+	margin-right: 20px
+.icon_down
+	background: $accent-color2
+	font-size: .7em
+	color: white
+	border-radius: 2px
+	padding: 2px
+	margin-left: 8px
+.navigate_link
+	text-decoration: none
+	color: white
+	background: $accent-color1
+	padding: 15px
+.news_navigate,
+.portfolio_navigate
+	position: absolute
+	display: none
+	list-style: none
+	padding: 0
+	z-index: 1
+	background: $accent-color2
+.news_nav_link,
+.portfolio_nav_link
+	padding: 15px 20px
+	&:hover
+		background: #4771AF
+.news_nav_item,
+.portfolio_nav_item
+	line-height: 20px
+	padding: 15px 20px
+.apear_navigate
+	z-index: 4
+	display: none
+	background: $accent-color2
+	color: #fff
+.apear_list
+	display: none
+.menu_nav_link
+	display: none
+@media screen and(max-width: 1190px)
+	.navigate_item
+		margin-right: 20px
+@media screen and(max-width: 992px)
+	.navigate_list
+		padding-left: 0px
+@media screen and(max-width: 830px)
+	.navigate_item
+		margin-right: 0px
+@media screen and(max-width: 700px)
+	.apear_navigate
+		display: block
+	.navigation
+		display: none
+	.social
+		display: none
+	.icon_menu
+		margin-right: 10px
+	.apear_navigate
+		width: 100%
+		background: $accent-color2
+		text-align: center
+		margin-bottom: 20px
+	.apear_list
+		padding: 0px 0px 10px 0px
+		margin-bottom: 0px
+	.menu_nav_link
+		display: inline-block
+		font-size: 2em
+		padding: 10px 20px
+	.apear_nav_item
+		list-style: none
+		font-size: 1.5em
+	.apear_nav_link
+		display: block
+		padding: 7px 20px
+		&:hover
+			background: #4771AF
+	.portfolio_nav_item,
+	.news_nav_item
+		padding: 0px
+		background: #506B91
+	.news_nav_link,
+	.portfolio_nav_link
+		display: block
+	.news_navigate,
+	.portfolio_navigate
+		display: none
+		position: static
+		background: #506B91

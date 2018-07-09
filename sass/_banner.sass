@@ -1,0 +1,96 @@
+.banner
+	position: relative
+	top: 180px
+	display: block
+	background: url(../images/MT.png)
+	background-repeat: no-repeat
+	background-size: cover
+.mount_orange
+	background: $accent-color1
+.text_in_mount
+	position: absolute
+	top: 60px
+	right: 130px
+	width: 300px
+	color: white
+.form_contact
+	position: absolute
+	bottom: 0px
+	right: 0px
+	margin-right: 100px
+	float: right
+	padding: 5%
+	background: $accent-color2
+	width: 28.5%
+.form_wrap
+	color: white
+.caption_contact
+	font-size: 1.4em
+	margin-top: 0px
+.text_form
+	font-size: 0.8em
+	display: block
+	width: 100%
+.input_text
+	width: 100%
+	height: 50px
+	display: block
+	margin: 0 0 20px 0
+	color: #363636
+	font-size: 1.7em
+	border: 0
+	border-radius: 3px
+.label_form
+	font-size: 0.9em
+	font-weight: normal
+.btn_call
+	width: 100%
+	background: $accent-color1
+	text-transform: uppercase
+	text-align: center
+	display: block
+	color: white
+	padding: 20px
+	font-size: 0.7em
+	.fa
+		margin-left: 10px
+.under_ban
+	display: inline-block
+	width: 70%
+	background: #83969F
+	color: white
+	padding: 30px 65px
+	.fa
+		margin-left: 30px
+		position: relative
+		top: -10px
+.ban_under_line
+	text-decoration-line: underline
+.under_ban_text
+	display: inline-block
+@media screen and(max-width: 1290px)
+	.form_contact
+		width: 27.5%
+@media screen and(max-width: 1090px)
+	.phone_number
+		margin-right: 0px
+	.text_in_mount
+		display: none
+	.form_contact
+		width: 27%
+@media screen and(max-width: 992px)
+	.caption_contact
+		font-size: 1.5em
+		margin: 0px
+	.input_text
+		height: 30px
+	.form_contact
+		padding: 3%
+	.text_form,
+	.under_ban
+		display: none
+	.banner
+		height: 500px
+@media screen and(max-width: 700px)
+	.banner
+		display: none

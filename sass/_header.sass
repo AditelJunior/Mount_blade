@@ -1,0 +1,94 @@
+.header
+	float: right
+	width: 90%
+	margin-top: 30px
+.top_line
+	background: #ECEDF1
+	display: flex
+	justify-content: space-between
+.logotype
+	text-transform: uppercase
+	font-weight: bolder
+	font-size: 2em
+	margin-bottom: 7px
+.logo_link
+	&:hover
+		color: $accent-color2
+	&:visited
+		color: $accent-color2
+.social
+	display: inline-block
+	margin-right: 15%
+	.fa
+		margin-left: 10px
+		color: #83969F
+		font-size: 1.6em
+		&:hover
+			text-decoration: none
+		&:visited
+			text-decoration: none
+.in
+	margin-right: 0px
+.contacts
+	background: #FBFBFB
+	display: flex
+	justify-content: flex-end
+	height: 50px
+	line-height: 50px
+.email
+	margin-right: 40px
+.email_link
+	text-decoration: none
+	color: #83969F
+	&:link
+		text-decoration: none
+	&:hover
+		text-decoration: none
+		color: #83969F
+	&:visited
+		text-decoration: none
+		color: #83969F
+.phone_number
+	color: white
+	display: flex
+	justify-content: space-between
+	background: $accent-color2
+.phone_link
+	display: inline-block
+	text-align: center
+	background: #DE9E20
+	width: 50px
+	line-height: 50px
+	font-size: 2em
+.number
+	display: inline-block
+	font-size: 1.5em
+	padding: 0px 200px 0px 20px
+@media screen and(max-width: 1090px)
+	.number
+		padding: 0px 20px 0px 20px
+@media screen and(max-width: 992px)
+	.header
+		width: 100%
+	.logotype
+		margin-left: 20px
+@media screen and(max-width: 700px)
+	.contacts
+		display: none
+	.header
+		margin-top: 0px
+	.social
+		padding: 10px
+	.contacts
+		height: 30px
+		line-height: 30px
+	.email_link
+		font-size: 0.8em
+	.phone_link
+		width: 30px
+		line-height: 30px
+		font-size: 1.4em
+	.number
+		font-size: 1.1em
+	.top_line
+		display: block
